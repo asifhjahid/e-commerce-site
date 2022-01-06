@@ -71,9 +71,9 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 26px;
   background: var(--white);
-  border-bottom: 2px solid var(--green);
+  border-bottom: 3px solid var(--green);
   position: fixed;
   z-index: 9999;
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
@@ -98,7 +98,7 @@ a {
 }
 
 .headerLeftCol .headerLogo {
-  height: 55px;
+  height: 67px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,9 +106,10 @@ a {
 }
 
 .headerLeftCol .headerLogo img {
-  width: 127px;
+  width: 156px;
+  height: 60.5px;
   /* -webkit-object-fit: cover; */
-  object-fit: cover;
+  /* object-fit: cover; */
   cursor: pointer;
 }
 
@@ -156,15 +157,19 @@ a {
 
 .headerRightCol .headerCityCol .cityText {
   font-weight: 600;
-  font-size: var(--fontSizeM);
+  /* font-size: var(--fontSizeM); */
+  font-size: 18px;
   color: var(--green);
   margin-top: 3px;
-  margin-left: 3px;
+  margin-left: 6px;
 }
 
+.headerCityCol a {
+  font-size: 20px;
+}
 .headerRightCol .headerLanguageSettingsCol {
   height: 55px;
-  width: 120px;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,34 +177,39 @@ a {
   transition: all 0.1s linear;
   cursor: pointer;
 }
+.headerRightCol .headerLanguageSettingsCol a {
+  font-size: 20px;
+}
 .headerRightCol .headerLanguageSettingsCol .fa-user {
   width: 15px;
   height: 15px;
   color: var(--green);
 }
 .headerRightCol .headerLanguageSettingsCol .signInTextForHeader {
-  font-size: var(--fontSizeM);
+  /* font-size: var(--fontSizeM); */
+  font-size: 17px;
   font-weight: 600;
   color: var(--green);
   margin-top: 3px;
-  margin-left: 3px;
+  margin-left: 8px;
 }
 
 .headerRightCol .header__cart__icon__col {
-  width: 70px;
+  width: 85px;
   display: block;
 }
 
 .headerRightCol .header__cart__icon__col .cartLogo {
-  width: 70px;
+  width: 82px;
 }
 .headerRightCol .header__cart__icon__col .cartLogo img {
-  width: 30px;
+  width: 51px;
+  height: 54px;
 }
 
 .headerRightCol .headerSignInCol {
-  height: 84px;
-  width: 90px;
+  height: 85px;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +250,8 @@ a {
   justify-content: center;
 }
 .border__bottom__under__list img {
-  width: 25px;
+  width: 34px;
+  height: 28px;
 }
 .border__bottom__under__list::after {
   content: "";
@@ -255,12 +266,12 @@ a {
 }
 
 .right__cart__info__style {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
 }
 .right__cart__info__icon {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   display: inline-block;
 }
