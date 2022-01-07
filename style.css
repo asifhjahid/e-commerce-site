@@ -789,3 +789,61 @@ ul {
   padding: 3px 10px;
   color: var(--color7);
 }
+
+/* 
+Home Fresh Section */
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  padding-bottom: 50px;
+}
+.container .common__product__title__area {
+  margin-bottom: 40px;
+}
+.container .common__product__title__area .common__product__title__wrapper {
+  background: hsla(0, 0%, 50.2%, 0.09019607843137255);
+  padding: 15px 30px;
+  position: relative;
+}
+.container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__left__border {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 76%;
+  width: 13px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 5px;
+  background: rgb(68, 189, 50);
+}
+.container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #313131;
+  margin: 0 0 5px 5px;
+}
+.container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__title__subTitle {
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px;
+  color: #313131;
+  overflow: hidden;
+  margin-left: 5px;
+}
