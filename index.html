@@ -18,59 +18,123 @@
     <title>Shodai Mama</title>
   </head>
   <body>
-    <div class="headerArea">
-      <div class="headerInner">
-        <div class="headerLeftCol">
-          <div class="headerLogo">
+    <!-- Header Section -->
+    <div>
+      <header class="headerArea">
+        <div class="headerInner">
+          <div class="headerLeftCol">
+            <div class="headerLogo">
+              <a href="#">
+                <img src="./images/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="headerRightCol">
+            <div>
+              <label class="searchArea">
+                <img src="./images/search.png" alt="" />
+              </label>
+            </div>
+            <div class="headerCityCol hover1">
+              <a href="">
+                <i class="fas fa-map-marker-alt"></i>
+              </a>
+              <span class="cityText">Select Delivery Location</span>
+            </div>
+            <span>
+              <div class="headerLanguageSettingsCol">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a class="signInTextForHeader" href="/signin">Sign In</a>
+              </div>
+            </span>
             <a href="#">
-              <img src="./images/logo.png" alt="" />
-            </a>
-          </div>
-        </div>
-        <div class="headerRightCol">
-          <div>
-            <label class="searchArea">
-              <img src="./images/search.png" alt="" />
-            </label>
-          </div>
-          <div class="headerCityCol hover1">
-            <a href="">
-              <i class="fas fa-map-marker-alt"></i>
-            </a>
-            <span class="cityText">Select Delivery Location</span>
-          </div>
-          <span>
-            <div class="headerLanguageSettingsCol">
-              <a href="#"><i class="fas fa-user"></i></a>
-              <a class="signInTextForHeader" href="/signin">Sign In</a>
-            </div>
-          </span>
-          <a href="#">
-            <div class="header__cart__icon__col">
-              <div class="cartLogo">
-                <img src="./images/cart.svg" alt="" />
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="headerSignInCol hover1">
-              <div class="header__right__cart__info">
-                <div class="tag__arrow">
-                  <img src="./images/leftArrow.svg" alt="" />
+              <div class="header__cart__icon__col">
+                <div class="cartLogo">
+                  <img src="./images/cart.svg" alt="" />
                 </div>
-                <p class="right__cart__info__style border__bottom__under__list">
-                  <img src="./images/artBoard.svg" alt="" />
-                  0
-                </p>
-                <p class="right__cart__info__style">
-                  <span class="right__cart__info__icon">৳</span>
-                  0
-                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="headerSignInCol hover1">
+                <div class="header__right__cart__info">
+                  <div class="tag__arrow">
+                    <img src="./images/leftArrow.svg" alt="" />
+                  </div>
+                  <p
+                    class="right__cart__info__style border__bottom__under__list"
+                  >
+                    <img src="./images/artBoard.svg" alt="" />
+                    0
+                  </p>
+                  <p class="right__cart__info__style">
+                    <span class="right__cart__info__icon">৳</span>
+                    0
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Area -->
+
+      <header class="mainContentArea">
+        <div class="rightSidebar">
+          <!-- Main Area Left Side -->
+
+          <div class="leftSideBar">
+            <div class="leftSideBarInner">
+              <!-- Main Area Left Side Top -->
+
+              <div class="leftSideBarTop">
+                <ul class="leftSideBarTopNav">
+                  <li class="leftSideBarTopNavItem">
+                    <a class="leftSideBarTopNavItemLink" href="">
+                      <img
+                        class="categoryImageIcon"
+                        src="./images/home.png"
+                        alt=""
+                      />
+                      <span class="marginLeft">Home</span>
+                    </a>
+                  </li>
+                  <li class="leftSideBarTopNavItem">
+                    <a class="leftSideBarTopNavItemLink" href="">
+                      <img
+                        class="categoryImageIcon"
+                        src="./images/fresh.png"
+                        alt=""
+                      />
+                      <span class="marginLeft">Fresh</span>
+                    </a>
+                  </li>
+                  <li class="leftSideBarTopNavItem">
+                    <a class="leftSideBarTopNavItemLink" href="">
+                      <img
+                        class="categoryImageIcon"
+                        src="./images/regular.png"
+                        alt=""
+                      />
+                      <span class="marginLeft">Regular</span>
+                    </a>
+                  </li>
+                  <li class="leftSideBarTopNavItem">
+                    <a class="leftSideBarTopNavItemLink" href="">
+                      <img
+                        class="categoryImageIcon"
+                        src="./images/preorder.png"
+                        alt=""
+                      />
+                      <span class="marginLeft">Preorder</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </a>
+          </div>
         </div>
-      </div>
+      </header>
     </div>
   </body>
 </html>
