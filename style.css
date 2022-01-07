@@ -495,7 +495,6 @@ ul {
   top: 70px;
   z-index: 9998;
   background: #fff;
-  display: none;
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
 }
 @media (min-width: 768px) {
@@ -532,4 +531,129 @@ ul {
   height: 68px;
   width: 100%;
   transition: 0.9s;
+}
+
+/* Home Banner Area */
+
+.homeContentArea {
+  padding-top: 50px;
+}
+.homeContentArea .bannerArea {
+  width: 100%;
+  padding-bottom: 60px;
+  margin-top: 127px;
+  /* display: none; */
+}
+@media (min-width: 768px) {
+  .homeContentArea .bannerArea {
+    display: block;
+  }
+}
+.homeContentArea .bannerArea .container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+.homeContentArea .bannerArea .container .carousel-root {
+  outline: none;
+}
+.homeContentArea .bannerArea .container .carousel-root .carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .carousel-slider {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .slider-wrapper {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  transition: height 0.15s ease-in;
+}
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .slider-wrapper
+  .slider {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  width: 100%;
+}
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .slider-wrapper
+  .slider.animated {
+  transition: all 0.35s ease-in-out;
+}
+
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .slider-wrapper
+  .slider
+  .slide {
+  flex-direction: column;
+  flex-flow: column;
+  min-width: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+.homeContentArea
+  .bannerArea
+  .container
+  .carousel-root
+  .carousel
+  .slider-wrapper
+  .slider
+  .slide
+  img {
+  display: inline-block;
+  pointer-events: none;
+  object-fit: fill;
+  height: 350px;
+  width: 100%;
+  vertical-align: top;
+  border: 0;
+}
+@media (min-width: 768px) {
+  .homeContentArea
+    .bannerArea
+    .container
+    .carousel-root
+    .carousel
+    .slider-wrapper
+    .slider
+    .slide
+    img {
+    height: 450px;
+  }
 }
