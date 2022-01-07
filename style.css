@@ -537,6 +537,7 @@ ul {
 
 .homeContentArea {
   padding-top: 50px;
+  margin-left: 66px;
 }
 .homeContentArea .bannerArea {
   width: 100%;
@@ -656,4 +657,135 @@ ul {
     img {
     height: 450px;
   }
+}
+
+/* Home Preorder Section */
+
+.preorderSection {
+  padding-bottom: 50px;
+}
+.preorderSection .container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+.preorderSection .container .common__product__title__area {
+  margin-bottom: 40px;
+}
+.preorderSection
+  .container
+  .common__product__title__area
+  .common__product__title__wrapper {
+  background: hsla(0, 0%, 50.2%, 0.09019607843137255);
+  padding: 15px 30px;
+  position: relative;
+}
+.preorderSection
+  .container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__left__border {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 76%;
+  width: 13px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 5px;
+  background: rgb(68, 189, 50);
+}
+.preorderSection
+  .container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #313131;
+  margin: 0 0 5px 5px;
+}
+.preorderSection
+  .container
+  .common__product__title__area
+  .common__product__title__wrapper
+  .common__product__title__subTitle {
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px;
+  color: #313131;
+  overflow: hidden;
+  margin-left: 5px;
+}
+.preorderSection .container .productListArea {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(122px, 1fr));
+  grid-gap: 10px; */
+}
+@media (min-width: 440px) {
+  .productListArea {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 5px;
+  }
+}
+.preorderSection .container .productListArea .offerBannerItem {
+  position: relative;
+  min-height: 231px;
+  width: 254px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.preorderSection
+  .container
+  .productListArea
+  .offerBannerItem
+  .offerBannerItemImg {
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.preorderSection
+  .container
+  .productListArea
+  .offerBannerItem
+  .offerBannerItemImg
+  img {
+  width: 100%;
+  height: 168px;
+  transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  object-fit: cover;
+}
+.preorderSection
+  .container
+  .productListArea
+  .offerBannerItem
+  .offerBannerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background: var(--white);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+}
+.preorderSection
+  .container
+  .productListArea
+  .offerBannerItem
+  .offerBannerContent
+  p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px 10px;
+  color: var(--color7);
 }
