@@ -1374,3 +1374,28 @@ Category Section */
   font-size: 14px;
   font-weight: 400;
 }
+
+/* Footer Payment Section */
+
+.footerPaymentSection {
+  border-top: 1px solid #d3d3d3;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.PaymentMethodImage {
+  width: 100%;
+}
+.PaymentMethodImage img {
+  width: 100%;
+}
+.PaymentMethodImageForMobile {
+  display: none;
+}
+.PaymentMethodImageForMobile img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .PaymentMethodImageForMobile {
+    display: block;
+  }
+}
