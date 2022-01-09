@@ -872,7 +872,7 @@ Home Fresh Section */
 .productListArea {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 
 .productListArea .productCart {
@@ -1129,8 +1129,8 @@ Category Section */
 @media (min-width: 767px) {
   .categorySection .homePageCategory {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(163px, 1fr));
+    grid-gap: 15px;
   }
 }
 .categorySection .homePageCategory .categoryItem {
