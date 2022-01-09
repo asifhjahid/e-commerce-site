@@ -1208,3 +1208,112 @@ Category Section */
   color: var(--color7);
   line-height: 24px;
 }
+
+/* Footer Section */
+
+/* Contact Section */
+.footer-wrapper {
+  padding-top: 70px;
+  width: 100%;
+  margin-left: 25px;
+}
+@media (min-width: 768px) {
+  .footer-wrapper {
+    background: rgba(222, 222, 222, 0.22);
+    padding-bottom: 0;
+  }
+}
+.footer-wrapper .container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+}
+.footer-wrapper .container .footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(219px, 1fr));
+  justify-content: center;
+  grid-gap: 30px;
+  width: 100%;
+}
+.footer-wrapper .container .footer-content .footer-column,
+.logo__area {
+  text-align: center;
+}
+.footer-wrapper .container .footer-content .logo__area img {
+  width: 125px;
+}
+.footer-wrapper .container .footer-content .footer-column .social__media {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.footer-wrapper .container .footer-content .footer-column .social__media a {
+  font-size: 21px;
+  color: var(--green);
+  transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.footer-wrapper .container .footer-content .footer-column .shodaimama__app {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: -1;
+}
+.footer-wrapper .container .footer-content .footer-column .shodaimama__app p {
+  display: block;
+  width: 200px;
+  background: var(--green);
+  margin: 20px auto 0;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 3px;
+  height: 36px;
+  line-height: 36px;
+  transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.footer-wrapper
+  .container
+  .footer-content
+  .footer-column
+  .shodaimama__app
+  .ball.motion-blur {
+  animation: motion-blur 5s ease-in-out infinite;
+  top: 20px;
+}
+.footer-wrapper
+  .container
+  .footer-content
+  .footer-column
+  .shodaimama__app
+  .ball {
+  height: 36px;
+  width: 200px;
+  background-color: rgba(0, 106, 78, 0.34901960784313724);
+  position: absolute;
+}
+.footer-wrapper
+  .container
+  .footer-content
+  .footer-column
+  .shodaimama__CopyRight
+  p {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.footer-wrapper
+  .container
+  .footer-content
+  .footer-column
+  .shodaimama__CopyRight
+  p
+  i {
+  font-style: italic;
+  font-size: 17px;
+}
