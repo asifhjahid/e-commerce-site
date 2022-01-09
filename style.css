@@ -354,7 +354,9 @@ ul {
   transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   justify-content: center;
 }
-
+.mainContentArea .leftSideBar .leftSideBarTopNav .leftSideBarTopNavItem:hover {
+  padding-left: 12px;
+}
 .mainContentArea
   .leftSideBar
   .leftSideBarTopNav
@@ -462,7 +464,9 @@ ul {
   transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   justify-content: center;
 }
-
+.leftSidebarBottom .leftSideBarNavItem:hover {
+  padding-left: 12px;
+}
 .leftSidebarBottom .leftSideBarNavItem a {
   font-size: 15px;
   color: var(--green);
@@ -897,7 +901,15 @@ Home Fresh Section */
   transition: 0.5s;
   z-index: 9;
 }
-
+.productListArea
+  .productCart
+  .product
+  .productContent
+  .productImageArea
+  img:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
 .productListArea .productCart .product .productContent .productOrigin a {
   color: #ffffff;
 }
@@ -1129,6 +1141,10 @@ Category Section */
   -webkit-object-fit: cover;
   object-fit: cover;
   transition: all 0.55s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.categorySection .homePageCategory .categoryItem .categoryImageArea img:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
 }
 .categorySection .homePageCategory .categoryItem .categoryName {
   color: var(--color7);
