@@ -302,15 +302,15 @@ a {
 
 @media (min-width: 768px) {
   .rightSidebar {
-    width: calc(100% - 270px);
-    margin-left: 270px;
+    width: calc(100% - 290px);
+    margin-left: 290px;
   }
 }
 
 /* Main Area Left Side */
 
 .mainContentArea .leftSideBar {
-  width: 270px;
+  width: 290px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
   position: fixed;
   left: 0;
@@ -488,9 +488,11 @@ ul {
 
 /* Home Area Top */
 
+.homeArea {
+}
 .homeArea .global_category_tab_btn_area {
   height: 76px;
-  width: calc(100% - 270px);
+  width: calc(100% - 280px);
   right: 0;
   position: fixed;
   top: 70px;
@@ -1408,7 +1410,7 @@ Category Section */
 
 .footerPaymentSection {
   border-top: 1px solid #d3d3d3;
-  margin: 20px 0 0 30px;
+  /* margin: 20px 0 0 30px; */
   padding: 10px 0;
 }
 .PaymentMethodImage {
