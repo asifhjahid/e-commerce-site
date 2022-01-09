@@ -1058,6 +1058,7 @@ button {
   cursor: pointer;
   background-color: var(--green);
   border-radius: 3px;
+  border: none;
 }
 
 /* Show More Option */
@@ -1209,8 +1210,8 @@ Category Section */
 }
 .serviceSection .serviceArea {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
-  grid-gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 15px;
 }
 .serviceSection .serviceArea .serviceItem {
   text-align: center;
@@ -1269,7 +1270,8 @@ Category Section */
   grid-template-columns: repeat(auto-fill, minmax(219px, 1fr));
   justify-content: center;
   grid-gap: 30px;
-  width: 100%;
+  width: 90%;
+  margin-left: 10px;
 }
 .footer-wrapper .container .footer-content .footer-column,
 .logo__area {
