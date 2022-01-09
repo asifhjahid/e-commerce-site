@@ -101,7 +101,7 @@ a {
 }
 
 .headerLeftCol .headerLogo {
-  height: 67px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,8 +109,8 @@ a {
 }
 
 .headerLeftCol .headerLogo img {
-  width: 156px;
-  height: 60.5px;
+  width: 127px;
+  /* height: 60.5px; */
   /* -webkit-object-fit: cover; */
   /* object-fit: cover; */
   cursor: pointer;
@@ -160,8 +160,7 @@ a {
 
 .headerRightCol .headerCityCol .cityText {
   font-weight: 600;
-  /* font-size: var(--fontSizeM); */
-  font-size: 18px;
+  font-size: var(--fontSizeM);
   color: var(--green);
   margin-top: 3px;
   margin-left: 6px;
@@ -189,12 +188,10 @@ a {
   color: var(--green);
 }
 .headerRightCol .headerLanguageSettingsCol .signInTextForHeader {
-  /* font-size: var(--fontSizeM); */
-  font-size: 17px;
+  font-size: var(--fontSizeM);
   font-weight: 600;
   color: var(--green);
-  margin-top: 3px;
-  margin-left: 8px;
+  margin: 3px 0 0 8px;
 }
 
 .headerRightCol .header__cart__icon__col {
@@ -203,16 +200,16 @@ a {
 }
 
 .headerRightCol .header__cart__icon__col .cartLogo {
-  width: 82px;
+  width: 70px;
 }
 .headerRightCol .header__cart__icon__col .cartLogo img {
-  width: 51px;
-  height: 54px;
+  width: 41px;
+  /* height: 54px; */
 }
 
 .headerRightCol .headerSignInCol {
   height: 85px;
-  width: 150px;
+  width: 126px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +237,7 @@ a {
   z-index: 9999;
 }
 .headerRightCol .headerSignInCol .header__right__cart__info .tag__arrow img {
-  width: 100%;
+  width: 30px;
 }
 
 .headerRightCol
@@ -260,8 +257,8 @@ a {
   .header__right__cart__info
   .border__bottom__under__list
   img {
-  width: 34px;
-  height: 28px;
+  width: 25px;
+  /* height: 28px; */
 }
 .headerRightCol
   .headerSignInCol
@@ -282,7 +279,7 @@ a {
   .headerSignInCol
   .header__right__cart__info
   .right__cart__info__style {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
 }
@@ -291,7 +288,7 @@ a {
   .header__right__cart__info
   .right__cart__info__style
   .right__cart__info__icon {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   display: inline-block;
 }
@@ -313,7 +310,7 @@ a {
 /* Main Area Left Side */
 
 .mainContentArea .leftSideBar {
-  width: 336px;
+  width: 270px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
   position: fixed;
   left: 0;
@@ -328,7 +325,7 @@ a {
 @media (min-width: 768px) {
   .mainContentArea .leftSideBar {
     left: 0;
-    padding-top: 25px;
+    padding-top: 12px;
     display: block;
     box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
     border-right: 1px solid rgba(119, 108, 108, 0.30980392156862746);
@@ -385,7 +382,7 @@ ul {
   .leftSideBarTopNavItemLink
   .marginLeft {
   margin-left: 44px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 /* Main Area Left Side Bar Bottom */
@@ -427,7 +424,7 @@ ul {
   color: grey;
   display: inline-block;
   margin-right: 3px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .leftSideBarTop
   .leftSideBarTopNav
@@ -436,7 +433,7 @@ ul {
   .shodai__text {
   color: var(--green);
   display: inline-block;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .leftSideBarTop
   .leftSideBarTopNav
@@ -445,7 +442,7 @@ ul {
   .mama__text {
   color: var(--orange);
   display: inline-block;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 /* Main Area Left Side Bar Bottom Items */
@@ -484,7 +481,7 @@ ul {
 }
 .leftSidebarBottom .leftSideBarNavItem span {
   margin-left: 44px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 /* Home Area */
@@ -493,7 +490,7 @@ ul {
 
 .homeArea .global_category_tab_btn_area {
   height: 76px;
-  width: calc(100% - 324px);
+  width: calc(100% - 270px);
   right: 0;
   position: fixed;
   top: 70px;
@@ -525,14 +522,14 @@ ul {
   .global_category_tab_btn_wrapper
   .single_global_catergory_btn
   .globalBtn_link {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   color: #313131;
   line-height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 68px;
+  height: 50px;
   width: 100%;
   transition: 0.9s;
 }
@@ -549,7 +546,7 @@ ul {
 
 .homeContentArea {
   padding-top: 50px;
-  margin-left: 66px;
+  /* margin-left: 66px; */
 }
 .homeContentArea .bannerArea {
   width: 100%;
@@ -667,7 +664,7 @@ ul {
     .slider
     .slide
     img {
-    height: 450px;
+    height: 350px;
   }
 }
 
@@ -704,8 +701,8 @@ ul {
   position: absolute;
   left: 0;
   top: 50%;
-  height: 76%;
-  width: 13px;
+  height: 70%;
+  width: 10px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   border-radius: 5px;
@@ -716,7 +713,7 @@ ul {
   .common__product__title__area
   .common__product__title__wrapper
   .common__product__title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 40px;
   color: #313131;
@@ -727,7 +724,7 @@ ul {
   .common__product__title__area
   .common__product__title__wrapper
   .common__product__title__subTitle {
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 30px;
@@ -778,7 +775,7 @@ ul {
   .offerBannerItemImg
   img {
   width: 100%;
-  height: 168px;
+  height: 164px;
   transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   object-fit: cover;
 }
@@ -804,7 +801,7 @@ ul {
   .offerBannerItem
   .offerBannerContent
   p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   padding: 3px 10px;
   color: var(--color7);
@@ -838,8 +835,8 @@ Home Fresh Section */
   position: absolute;
   left: 0;
   top: 50%;
-  height: 76%;
-  width: 13px;
+  height: 70%;
+  width: 10px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   border-radius: 5px;
@@ -849,7 +846,7 @@ Home Fresh Section */
   .common__product__title__area
   .common__product__title__wrapper
   .common__product__title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 40px;
   color: #313131;
@@ -859,7 +856,7 @@ Home Fresh Section */
   .common__product__title__area
   .common__product__title__wrapper
   .common__product__title__subTitle {
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 30px;
@@ -901,7 +898,7 @@ Home Fresh Section */
 .productListArea .productCart .product .productContent .productOrigin {
   position: absolute;
   right: 14px;
-  font-size: 15px;
+  font-size: 12px;
   top: 10px;
   padding: 2px 6px;
   border-radius: 3px;
@@ -948,12 +945,12 @@ Home Fresh Section */
 }
 @media (min-width: 440px) {
   .productListArea .productCart .product .productContent .productName {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
   }
 }
 .productListArea .productCart .product .productContent .productSubtext {
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 3px;
   color: var(--orange);
   font-weight: 500;
@@ -967,7 +964,7 @@ Home Fresh Section */
   .productContent
   .productPriceArea
   .quantitySymbol {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--color3);
 }
@@ -987,7 +984,7 @@ Home Fresh Section */
     .productContent
     .productPriceArea
     .prodcutPrice {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .productListArea .productCart .productDetailsBtnArea {
@@ -997,7 +994,7 @@ Home Fresh Section */
 }
 .productCardDetailsBtn {
   border: 1px solid var(--green);
-  font-size: 14px;
+  font-size: 11px;
   padding: 0 10px;
   font-weight: 600;
   color: var(--green);
@@ -1022,7 +1019,7 @@ button {
   padding-left: 5px;
 }
 .productListArea .productCart .productDetailsArea .productDeliveryStatus img {
-  height: 26px;
+  height: 22px;
   margin-right: 5px;
 }
 .productListArea .productCart .productDetailsArea .productDeliveryStatus p {
@@ -1030,7 +1027,7 @@ button {
   color: #9b9898;
   margin-left: 5px;
   line-height: 25px;
-  font-size: 13px;
+  font-size: 11px;
 }
 .productListArea .productCart .productDetailsArea .productDeliveryText {
   padding-right: 10px;
@@ -1040,7 +1037,7 @@ button {
   color: #868585;
 }
 .productListArea .productCart .productDetailsArea .productDeliveryText img {
-  height: 24px;
+  height: 22px;
 }
 .productListArea .productCart .addToBgBtnGeneral {
   height: 41px;
@@ -1052,8 +1049,7 @@ button {
 }
 .productListArea .productCart .addToBgBtnGeneral {
   justify-content: center;
-  /* font-size: var(--fontSizeS); */
-  font-size: 17px;
+  font-size: 14px;
   transition: all 0.1s linear;
   cursor: pointer;
   background-color: var(--green);
@@ -1115,7 +1111,7 @@ Category Section */
 }
 @media (min-width: 768px) {
   .categorySection .sectionHeadingArea .sectionHeading {
-    font-size: 38px;
+    font-size: 30px;
   }
 }
 .categorySection .sectionHeadingArea .sectionHeading::after {
@@ -1123,7 +1119,7 @@ Category Section */
   position: absolute;
   left: 0;
   bottom: -2px;
-  height: 4px;
+  height: 3px;
   width: 100%;
   background-color: var(--green);
 }
@@ -1165,7 +1161,7 @@ Category Section */
 }
 .categorySection .homePageCategory .categoryItem .categoryName {
   color: var(--color7);
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   display: block;
@@ -1196,7 +1192,7 @@ Category Section */
 }
 @media (min-width: 768px) {
   .serviceSection .sectionHeadingArea .sectionHeading {
-    font-size: 38px;
+    font-size: 30px;
   }
 }
 .serviceSection .sectionHeadingArea .sectionHeading::after {
@@ -1204,7 +1200,7 @@ Category Section */
   position: absolute;
   left: 0;
   bottom: -2px;
-  height: 4px;
+  height: 3px;
   width: 100%;
   background-color: var(--green);
 }
@@ -1215,7 +1211,7 @@ Category Section */
 }
 .serviceSection .serviceArea .serviceItem {
   text-align: center;
-  padding: 52px 15px 22px;
+  padding: 40px 15px 15px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
   background: #fff;
   border-radius: 4px;
@@ -1229,14 +1225,14 @@ Category Section */
   }
 }
 .serviceSection .serviceArea .serviceItem .serviceContentTitle {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   color: #313131;
   margin-bottom: 5px;
   text-transform: capitalize;
 }
 .serviceSection .serviceArea .serviceItem .serviceSubContentTitle {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--color7);
   line-height: 24px;
@@ -1248,7 +1244,7 @@ Category Section */
 .footer-wrapper {
   padding-top: 70px;
   width: 100%;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 }
 @media (min-width: 768px) {
   .footer-wrapper {
@@ -1271,14 +1267,14 @@ Category Section */
   justify-content: center;
   grid-gap: 30px;
   width: 100%;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 }
 .footer-wrapper .container .footer-content .footer-column,
 .logo__area {
   text-align: center;
 }
 .footer-wrapper .container .footer-content .logo__area img {
-  width: 125px;
+  width: 110px;
 }
 .footer-wrapper .container .footer-content .footer-column .social__media {
   display: flex;
@@ -1286,7 +1282,7 @@ Category Section */
   margin-top: 25px;
 }
 .footer-wrapper .container .footer-content .footer-column .social__media a {
-  font-size: 21px;
+  font-size: 18px;
   color: var(--green);
   transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
 }
@@ -1302,7 +1298,7 @@ Category Section */
   width: 200px;
   background: var(--green);
   margin: 20px auto 0;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1338,8 +1334,7 @@ Category Section */
   .footer-column
   .shodaimama__CopyRight
   p {
-  margin-left: 10px;
-  margin-top: 15px;
+  margin: 15px 0 0 15px;
 }
 .footer-wrapper
   .container
@@ -1349,7 +1344,7 @@ Category Section */
   p
   i {
   font-style: italic;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 
 .footer-column {
@@ -1359,7 +1354,7 @@ Category Section */
   margin-left: -24px;
 } */
 .footer-column .footer-heading {
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
   text-align: left;
@@ -1378,7 +1373,7 @@ Category Section */
 }
 .footer-column .footer__nav .footer__nav__item a {
   color: var(--color7);
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
 }
 
