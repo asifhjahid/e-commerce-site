@@ -1248,7 +1248,7 @@ Category Section */
 .footer-wrapper {
   padding-top: 70px;
   width: 100%;
-  margin-left: 5px;
+  margin-left: 80px;
 }
 @media (min-width: 768px) {
   .footer-wrapper {
@@ -1271,7 +1271,7 @@ Category Section */
   justify-content: center;
   grid-gap: 30px;
   width: 100%;
-  margin-left: 10px;
+  margin-left: 35px;
 }
 .footer-wrapper .container .footer-content .footer-column,
 .logo__area {
@@ -1355,9 +1355,9 @@ Category Section */
 .footer-column {
   text-align: center;
 }
-.footer-column .usefull__link {
+/* .footer-column .usefull__link {
   margin-left: -24px;
-}
+} */
 .footer-column .footer-heading {
   font-size: 21px;
   font-weight: 700;
@@ -1413,7 +1413,7 @@ Category Section */
 
 .footerPaymentSection {
   border-top: 1px solid #d3d3d3;
-  margin-top: 20px;
+  margin: 20px 0 0 46px;
   padding: 10px 0;
 }
 .PaymentMethodImage {
