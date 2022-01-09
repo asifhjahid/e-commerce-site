@@ -536,6 +536,14 @@ ul {
   width: 100%;
   transition: 0.9s;
 }
+.homeArea
+  .global_category_tab_btn_area
+  .global_category_tab_btn_wrapper
+  .single_global_catergory_btn
+  .globalBtn_link:hover {
+  padding-left: 25px;
+  transition: 0.9s;
+}
 
 /* Home Banner Area */
 
@@ -754,6 +762,14 @@ ul {
   height: 200px;
   position: relative;
   overflow: hidden;
+}
+.preorderSection
+  .container
+  .productListArea
+  .offerBannerItem
+  .offerBannerItemImg:hover {
+  transform: scale(1.4);
+  transition: 0.5s ease-in-out;
 }
 .preorderSection
   .container
